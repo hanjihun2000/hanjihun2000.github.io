@@ -3,6 +3,10 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Hello! I'm Jihun (Jay). I'm a final year undergraduate at the [Chinese University of Hong Kong](https://www.cuhk.edu.hk/english/index.html) majoring in Computer Science. My academic passion lies in Distributed Systems, Networks & Security, and I’m eager to apply my knowledge in these areas.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+I'm currently interning at [Manulife (Manulife Investment Management)](https://www.manulifeim.com.hk/) as a full-stack developer in the Global Wealth & Asset Management Asia Technology Team.
+
+Outside of academics, I enjoy exercising (especially running), reading business news, and travelling around the world.
+
+Thank you for visiting my website. I look forward to sharing more about my journey!
