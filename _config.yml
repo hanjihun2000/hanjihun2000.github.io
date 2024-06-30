@@ -16,9 +16,8 @@
 title:
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hello, World! Welcome to my personal website. I am Jihun (Jay) HAN, a Year 4 Computer Science student at CUHK. I am interested in software development, cloud computing, and distributed systems.
+  Feel free to contact me if you have any questions or opportunities for me. Thank you!
 github_username: hanjihun2000
 minimal_mistakes_skin: default
 search: true
@@ -57,9 +56,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name: "Jihun HAN"
+  name: "Jihun (Jay) HAN"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "Computer Science at CUHK"
+  bio: "Year 4 Computer Science at CUHK"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -81,27 +80,9 @@ footer:
       url: "https://github.com/hanjihun2000"
 
 defaults:
-  # _posts
-  # - scope:
-  #     path: ""
-  #     type: posts
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     read_time: true
-  #     comments: true
-  #     share: true
-  #     related: true
-  # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
-# category_archive:
-#   type: liquid
-#   path: /categories/
-# tag_archive:
-#   type: liquid
-#   path: /tags/

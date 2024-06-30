@@ -1,3 +1,31 @@
 ---
-layout: archive
+layout: default
 ---
+
+{% if page.header.overlay_color or page.header.overlay_image or
+page.header.image %} {% include page__hero.html %} {% elsif page.header.video.id
+and page.header.video.provider %} {% include page__hero_video.html %} {% endif
+%} {% if page.url != "/" and site.breadcrumbs %} {% unless paginator %} {%
+include breadcrumbs.html %} {% endunless %} {% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+  <div>
+    <div>
+      <br />
+      <h1>{{ "Hello, world!" | downcase }}</h1>
+    </div>
+    <div>
+      <div style="margin-bottom: 30px"></div>
+      <h4>work experience</h4>
+      <div style="margin-bottom: 30px"></div>
+      <hr />
+    </div>
+    <div>
+      <div style="margin-bottom: 30px"></div>
+      <h4>other achievement</h4>
+      <div style="margin-bottom: 30px"></div>
+      <hr />
+    </div>
+  </div>
+</div>
