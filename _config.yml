@@ -57,7 +57,7 @@ plugins:
 
 author:
   name: "Jihun (Jay) HAN"
-  avatar: "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/bio.jpg"
   bio: "Year 4 Computer Science at CUHK"
   links:
     - label: "Website"

@@ -8,24 +8,141 @@ and page.header.video.provider %} {% include page__hero_video.html %} {% endif
 %} {% if page.url != "/" and site.breadcrumbs %} {% unless paginator %} {%
 include breadcrumbs.html %} {% endunless %} {% endif %}
 
+<!-- <div>
+  <div style="margin-bottom: 30px"></div>
+  <h5>Example</h5>
+  <p style="font-size: 14px; color: rgb(95, 95, 95)">
+    Example | Jun 2024 - Dec 2024 | Full-time<br />
+  </p>
+  <p class="archive__item-excerpt" itemprop="description">
+    Example
+  </p>
+  <div style="margin-bottom: 30px"></div>
+</div> -->
+
+<!-- <img src="../assets/images/example.jpg" alt="Example" /> -->
+
 <div id="main" role="main">
   {% include sidebar.html %}
-  <div>
+  <div class="archive">
     <div>
       <br />
-      <h1>{{ "Hello, world!" | downcase }}</h1>
+      <h1
+        id="page-title"
+        class="page__title"
+        tabindex="-1"
+        style="outline: none"
+      >
+        {{ "Hello, world!" | downcase }}
+      </h1>
     </div>
-    <div>
-      <div style="margin-bottom: 30px"></div>
-      <h4>work experience</h4>
-      <div style="margin-bottom: 30px"></div>
-      <hr />
-    </div>
-    <div>
-      <div style="margin-bottom: 30px"></div>
-      <h4>other achievement</h4>
-      <div style="margin-bottom: 30px"></div>
-      <hr />
-    </div>
+    <section id="work" class="taxonomy_section">
+      <h2 class="archive__subtitle">my work experience</h2>
+      <div>
+        <div style="margin-bottom: 30px"></div>
+        <h5>Manulife Investment Management</h5>
+        <p style="font-size: 14px; color: rgb(95, 95, 95)">
+          Technology Placement Intern | Jun 2024 - Dec 2024 | Full-time<br />
+        </p>
+        <p class="archive__item-excerpt" itemprop="description">
+          I'm currently interning at
+          <a href="https://www.manulifeim.com.hk/"
+            >Manulife Investment Management</a
+          >
+          as a full-stack developer in the
+          <b>Global Wealth and Asset Management Asia Technology Team</b>.
+        </p>
+        <img
+          src="../assets/images/manulife_investment_management.jpg"
+          alt="Manulife Investment Management"
+        />
+        <div style="margin-bottom: 30px"></div>
+      </div>
+      <div>
+        <div style="margin-bottom: 30px"></div>
+        <h5>Court of Korea & Seoul High Prosecutor's Office</h5>
+        <p style="font-size: 14px; color: rgb(95, 95, 95)">
+          Social Service Personnel (National Military Service) | May 2021 - Feb
+          2023 | Full-time<br />
+        </p>
+        <p class="archive__item-excerpt" itemprop="description">
+          I served my national military service as a Social Service Personnel in
+          <a href="https://www.scourt.go.kr/scourt/index.html"
+            >Court of Korea</a
+          >
+          and
+          <a href="https://spo.go.kr/site/highseoul/main.do"
+            >Seoul High Prosecutor's Office</a
+          >. During my service, I was responsible for the safety and security of
+          the public. I helped more than 50-100 people coming to the department
+          daily and handled their inquiries by providing physical assistance and
+          verbal guidance. I performed great teamwork with supervisors and
+          colleagues to secure the safety of the public from any kind of threat.
+        </p>
+        <img
+          src="../assets/images/court_of_korea_seoul_high_prosecutors_office.jpg"
+          alt="Court of Korea & Seoul High Prosecutor's Office"
+        />
+        <div style="margin-bottom: 30px"></div>
+      </div>
+      <a href="#page-title" class="back-to-top">Back to Top ↑</a>
+    </section>
+    <div style="margin-bottom: 30px"></div>
+    <section id="achievement" class="taxonomy_section">
+      <h2 class="archive__subtitle">my achievement</h2>
+      <div>
+        <div style="margin-bottom: 30px"></div>
+        <h5>Deloitte CyberAce</h5>
+        <p style="font-size: 14px; color: rgb(95, 95, 95)">
+          Finalist | Oct 2023 - Nov 2023<br />
+        </p>
+        <p class="archive__item-excerpt" itemprop="description">
+          I participated the
+          <a
+            href="https://www.linkedin.com/posts/deloitte_cyberace-deloittecyber-riskadvisory-ugcPost-7140684698053148672-qC1y?utm_source=share&utm_medium=member_desktop"
+            >2023 Deloitte CyberAce</a
+          >
+          and was selected as a finalist. I worked on a real-world cybersecurity
+          consulting project and presented my solution to the judges. I also had
+          my first-ever bid simulation with 3 teammates through writing request
+          for proposal (RFP) and gained immersive experience of the process of
+          cybersecurity consulting business bidding. Our team tackled the real
+          life cybersecurity challenges given by AWS AI and presented our
+          all-in-one solution <b>DevOptima</b> that can be applied to assist
+          both enterprise's innovation and cybersecurity improvement in the era
+          of Generative AI.
+        </p>
+        <img
+          src="../assets/images/deloitte_cyberace.jpg"
+          alt="Deloitte CyberAce"
+        />
+        <div style="margin-bottom: 30px"></div>
+      </div>
+      <div>
+        <div style="margin-bottom: 30px"></div>
+        <h5>Hyundai MOBIS ESG Ideathon</h5>
+        <p style="font-size: 14px; color: rgb(95, 95, 95)">
+          Grand Award Winner | Jul 2023 - Aug 2023<br />
+        </p>
+        <p class="archive__item-excerpt" itemprop="description">
+          Our team designed a creative ESG project to reduce
+          <b>108,520</b>tCO2eq amount of carbon emission by recycling broken car
+          parts to invent
+          <a href="https://n.news.naver.com/article/015/0004877391"
+            >Smart LED Crosswalk</a
+          >, achieving <b>33</b>% reduction in Hyundai MOBIS's annual carbon
+          emission. I demonstrated our real-world prototype using Arduino and
+          the C programming language, which was designed and created by me, and
+          our project was selected as the Grand Award in the Hyundai MOBIS ESG
+          Ideathon.
+        </p>
+        <img
+          src="../assets/images/hyundai_mobis_esg_ideathon.jpg"
+          alt="Hyundai MOBIS ESG Ideathon"
+        />
+        <div style="margin-bottom: 30px"></div>
+      </div>
+      <a href="#page-title" class="back-to-top">Back to Top ↑</a>
+    </section>
   </div>
 </div>
