@@ -56,11 +56,11 @@ plugins:
 author:
   name: "Jihun (Jay) HAN"
   avatar: "/assets/images/profile.jpg"
-  bio: "Year 4 Computer Science at CUHK"
+  bio: "Final Year Computer Science at CUHK"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://hanjihun2000.github.io/"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://hanjihun2000.github.io/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/hanjihun2000/"
