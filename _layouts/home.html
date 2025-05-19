@@ -13,22 +13,44 @@ include breadcrumbs.html %} {% endunless %} {% endif %}
   <div class="archive">
     <div>
       <br />
-      <h1 id="page-title" class="page__title" tabindex="-1" style="outline: none">
-        {{ "hello, world!" | downcase }}
+      <h1
+        id="page-title"
+        class="page__title"
+        tabindex="-1"
+        style="outline: none"
+      >
+        {{ "hello, world! 😊" | downcase }}
       </h1>
     </div>
+
     <section id="work" class="taxonomy_section">
       <h2 class="archive__subtitle">my work experience</h2>
 
       <div>
         <div style="margin-bottom: 30px"></div>
+        <h5>Deloitte</h5>
+        <p style="font-size: 14px; color: rgb(95, 95, 95)">
+          Incoming Summer Project Intern | June 2025 - Aug 2025 | Full-time<br />
+        </p>
+        <ul>
+          <li class="archive__item-excerpt" itemprop="description">
+            Technology & Transformation Function
+          </li>
+        </ul>
+        <div style="margin-bottom: 30px"></div>
+      </div>
+
+      <div>
+        <div style="margin-bottom: 30px"></div>
         <h5>AIA</h5>
         <p style="font-size: 14px; color: rgb(95, 95, 95)">
-          IT Audit Intern | Apr 2025 - Present | Part-time<br />
+          IT Audit Intern | Apr 2025 - May 2025 | Part-time<br />
         </p>
-        <p class="archive__item-excerpt" itemprop="description">
-          I am currently working as an IT Audit Intern at AIA Group Internal Audit Department.
-        </p>
+        <ul>
+          <li class="archive__item-excerpt" itemprop="description">
+            Group Internal Audit
+          </li>
+        </ul>
         <div style="margin-bottom: 30px"></div>
       </div>
 
@@ -38,17 +60,15 @@ include breadcrumbs.html %} {% endunless %} {% endif %}
         <p style="font-size: 14px; color: rgb(95, 95, 95)">
           Technology Placement Intern | Jun 2024 - Dec 2024 | Full-time<br />
         </p>
-        <p class="archive__item-excerpt" itemprop="description">
-          I completed my Technology Placement Intern at Manulife Investment Management as a full-stack developer in the
-          Global Wealth and Asset Management Asia Technology Department. I engineered full-stack features for the
-          Manulife Investment Management Wealth Registry System, streamlining operations for the internal Indonesia
-          Operations Team, facilitating various fund services, and generating financial reports. Additionally, I
-          spearheaded the implementation of unit and snapshot testing for each module, significantly enhancing code
-          reliability and maintainability within the GWAM monorepo. I leveraged a web application programming tech stack
-          that includes ReactJS, NestJS, GraphQL, and MS SQL Server, while employing agile methodologies with tools like
-          Jira and Confluence.
-        </p>
-        <img src="../assets/images/manulife-investment-management.jpg" alt="Manulife Investment Management" />
+        <ul>
+          <li class="archive__item-excerpt" itemprop="description">
+            Global Wealth and Asset Management (GWAM) Asia Technology
+          </li>
+        </ul>
+        <img
+          src="../assets/images/manulife-investment-management.jpg"
+          alt="Manulife Investment Management"
+        />
         <div style="margin-bottom: 30px"></div>
       </div>
 
@@ -62,57 +82,121 @@ include breadcrumbs.html %} {% endunless %} {% endif %}
 
       <div>
         <div style="margin-bottom: 30px"></div>
-        <h5>Morgan Stanley Asia Code To Give Hackathon</h5>
+        <h5>2024 Manulife Hacksgiving Hackathon</h5>
         <p style="font-size: 14px; color: rgb(95, 95, 95)">
-          Participant | Aug 2024 - Aug 2024<br />
+          Participant | Nov 2024 | Hong Kong<br />
         </p>
         <p class="archive__item-excerpt" itemprop="description">
-          I contributed to a hybrid hackathon focused on developing innovative solutions for non-profit organizations by
-          collaborating with team members to implement an end-to-end application for managing events, participants, and
-          volunteers. I delivered a successful project presentation at Morgan Stanley's office, receiving positive
-          feedback that enhanced my software development, teamwork, and communication skills. Throughout this process, I
-          utilized tech frameworks such as React, Django, PostgreSQL, Docker, and Git/GitHub for application
-          development.
+          Received 2024 Manulife Hacksgiving Hackathon Certificate of
+          Participation.
         </p>
-        <img src="../assets/images/morgan-stanley-hackathon.jpg" alt="Deloitte CyberAce" />
+        <ul>
+          <li class="archive__item-excerpt" itemprop="description">
+            Team GenAI API Analyzer
+          </li>
+        </ul>
         <div style="margin-bottom: 30px"></div>
       </div>
 
       <div>
         <div style="margin-bottom: 30px"></div>
-        <h5>Deloitte CyberAce Competition</h5>
+        <h5>2024 Morgan Stanley Asia Code To Give Hackathon</h5>
         <p style="font-size: 14px; color: rgb(95, 95, 95)">
-          Finalist | Oct 2023 - Nov 2023<br />
+          Participant | Aug 2024 | Hong Kong<br />
         </p>
         <p class="archive__item-excerpt" itemprop="description">
-          I participated the 2023 Deloitte CyberAce and was selected as a finalist. I pioneered the first-ever bid
-          simulation with three teammates by writing a request for proposal (RFP), gaining immersive experience in the
-          process of cybersecurity consulting business bidding. Additionally, I tackled real-life cybersecurity
-          challenges presented by AWS AI and showcased our all-in-one solution, “DevOptima,” which assists enterprises
-          in both innovation and cybersecurity improvements in the era of Generative AI.
+          Received 2024 Morgan Stanley Code To Give Hackathon Certificate of
+          Participation.
         </p>
-        <img src="../assets/images/deloitte-cyberace.jpg" alt="Deloitte CyberAce" />
+        <ul>
+          <li class="archive__item-excerpt" itemprop="description">
+            Led a team of 8 in a hybrid hackathon, designing an end-to-end web
+            application for a non-profit organization to efficiently manage
+            events, participants and volunteers.
+          </li>
+          <li class="archive__item-excerpt" itemprop="description">
+            Delivered a high-impact onsite demonstration for containerizing and
+            configuring 2 critical components (backend server and database)
+            using Docker, ensuring seamless connectivity and boosting
+            development efficiency.
+          </li>
+          <li class="archive__item-excerpt" itemprop="description">
+            Harnessed full-stack frameworks that include React, Django,
+            PostgreSQL, Docker and Git to craft a scalable and production-ready
+            application while enhancing teamwork, collaboration and
+            communication expertise.
+          </li>
+        </ul>
+        <img
+          src="../assets/images/morgan-stanley-hackathon.jpg"
+          alt="Morgan Stanley Hackathon"
+        />
         <div style="margin-bottom: 30px"></div>
       </div>
 
       <div>
         <div style="margin-bottom: 30px"></div>
-        <h5>Hyundai MOBIS ESG Ideathon</h5>
+        <h5>2023 Deloitte CyberAce Competition</h5>
         <p style="font-size: 14px; color: rgb(95, 95, 95)">
-          Grand Award Winner | Jul 2023 - Aug 2023<br />
+          Participant | Oct 2023 - Nov 2023 | Hong Kong<br />
         </p>
         <p class="archive__item-excerpt" itemprop="description">
-          I designed a creative ESG project with a team of five members to reduce 108,520 tCO2eq of carbon emissions by
-          recycling broken car parts to invent the “Smart LED Crosswalk,” achieving a 33% reduction in Hyundai Mobis's
-          annual carbon emissions. I also demonstrated our real-world prototype of the “Smart LED Crosswalk” using
-          Arduino and the C programming language, showcasing how both the hardware—comprising LEDs, sensors, and a power
-          supply—and the software worked flawlessly.
+          Received 2023 Deloitte CyberAce Competition Certificate of
+          Achievement.
         </p>
-        <img src="../assets/images/hyundai-mobis-esg-ideathon.jpg" alt="Hyundai MOBIS ESG Ideathon" />
+        <ul>
+          <li class="archive__item-excerpt" itemprop="description">
+            Pioneered the first-ever bid simulation with 3 teammates through
+            writing request for proposal (RFP) and gained immersive experience
+            of the process of cybersecurity consulting business bidding.
+          </li>
+          <li class="archive__item-excerpt" itemprop="description">
+            Tackled real-life cybersecurity challenges given by AWS AI and
+            presented our all-in-one solution “DevOptima” that can be applied to
+            assist both enterprise’s innovation and cybersecurity improvement in
+            the era of Generative AI.
+          </li>
+        </ul>
+        <img
+          src="../assets/images/deloitte-cyberace.jpg"
+          alt="Deloitte CyberAce"
+        />
+        <div style="margin-bottom: 30px"></div>
+      </div>
+
+      <div>
+        <div style="margin-bottom: 30px"></div>
+        <h5>2023 Hyundai MOBIS ESG Ideathon</h5>
+        <p style="font-size: 14px; color: rgb(95, 95, 95)">
+          Participant | Jul 2023 - Aug 2023 | Seoul, South Korea<br />
+        </p>
+        <p class="archive__item-excerpt" itemprop="description">
+          Received 2023 Hyundai MOBIS ESG Ideathon Grand Award.
+        </p>
+        <ul>
+          <li class="archive__item-excerpt" itemprop="description">
+            Designed a creative ESG project with 5 members to reduce 108,520
+            tCO2eq amount of carbon emission by recycling broken car parts to
+            invent “Smart LED Crosswalk”, achieving 33% reduction in Hyundai
+            Mobis’s annual carbon emission.
+          </li>
+          <li class="archive__item-excerpt" itemprop="description">
+            Demonstrated our real-world prototype of “Smart LED Crosswalk” using
+            Arduino and C programming language designed and created by our team
+            to show both hardware (LEDs, sensors, and a power supply) and
+            software worked flawlessly.
+          </li>
+        </ul>
+        <img
+          src="../assets/images/hyundai-mobis-esg-ideathon.jpg"
+          alt="Hyundai MOBIS ESG Ideathon"
+        />
         <div style="margin-bottom: 30px"></div>
       </div>
 
       <a href="#page-title" class="back-to-top">Back to Top ↑</a>
     </section>
+
+    <div style="margin-bottom: 30px"></div>
   </div>
 </div>
