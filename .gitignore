@@ -2,3 +2,7 @@ _site
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
+
+# Ignore unncessary .md files
+CONTENT_GUIDE.md
+FILE_STRUCTURE_GUIDE.md

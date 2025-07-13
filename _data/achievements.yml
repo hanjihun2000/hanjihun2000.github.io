@@ -1,0 +1,53 @@
+# Achievements Data
+# To add new achievements, just add a new entry following the same format
+# No HTML knowledge required!
+
+- title: "2024 Manulife Hacksgiving Hackathon"
+  type: "Participant"
+  date: "Nov 2024"
+  location: "Hong Kong"
+  description: "Received 2024 Manulife Hacksgiving Hackathon Certificate of Participation."
+  highlights:
+    - "Team GenAI API Analyzer"
+  image: "manulife-hackathon.jpg"
+
+- title: "2024 PwC Hack A Day Capture the Flag (CTF) Competition"
+  type: "Participant"
+  date: "Nov 2024"
+  location: "Hong Kong"
+  description: "Participated 2024 PwC Hack A Day Capture the Flag Competition."
+  highlights:
+    - "7th Place in HK/Macau Region"
+    - "36th Place out of 100+ global teams across APAC region"
+  image: "pwc-ctf.jpg"
+
+- title: "2024 Morgan Stanley Asia Code To Give Hackathon"
+  type: "Participant"
+  date: "Aug 2024"
+  location: "Hong Kong"
+  description: "Received 2024 Morgan Stanley Code To Give Hackathon Certificate of Participation."
+  highlights:
+    - "Led a team of 8 members in a hybrid hackathon to develop an end-to-end web application for a non-profit organization to efficiently manage their events, participants and volunteers at a glance."
+    - "Engineered the development environment setup using Docker containers, ensuring seamless Frontend-Backend-DB connectivity and boosting development efficiency by configuring consistent setup for everyone."
+    - "Harnessed full-stack capabilities using React, Django, PostgreSQL, Docker and Git to craft a scalable and production-ready application, and improved teamwork skills, collaboration and communication expertise."
+  image: "morgan-stanley-hackathon.jpg"
+
+- title: "2023 Deloitte CyberAce Competition"
+  type: "Participant"
+  date: "Oct 2023 - Nov 2023"
+  location: "Hong Kong"
+  description: "Received 2023 Deloitte CyberAce Competition Certificate of Achievement."
+  highlights:
+    - "Pioneered the first-ever bid simulation with 3 team members through writing Request for Proposal and gained immersive experience of the process of cybersecurity consulting business bidding."
+    - 'Tackled real-life cybersecurity challenges given by AWS AI and presented our all-in-one solution "DevOptima" that can be applied to assist both enterprise''s innovation and cybersecurity improvement in the era of Generative AI.'
+  image: "deloitte-cyberace.jpg"
+
+- title: "2023 Hyundai MOBIS ESG Ideathon"
+  type: "Participant"
+  date: "Jul 2023 - Aug 2023"
+  location: "Seoul, South Korea"
+  description: "Received 2023 Hyundai MOBIS ESG Ideathon Grand Award."
+  highlights:
+    - 'Designed a creative ESG project with 5 members to reduce 108,520 tCO2eq amount of carbon emission by recycling broken car parts to invent "Smart LED Crosswalk", achieving 33% reduction in Hyundai Mobis''s annual carbon emission.'
+    - 'Demonstrated our real-world prototype of "Smart LED Crosswalk" using Arduino and C programming language designed and created by our team to show both hardware (LEDs, sensors, and a power supply) and software worked flawlessly.'
+  image: "hyundai-mobis-esg-ideathon.jpg"

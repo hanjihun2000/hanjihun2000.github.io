@@ -1,0 +1,17 @@
+# Projects Data
+# To add new projects, just add a new entry following the same format
+# No HTML knowledge required!
+
+- title: "Personal Website"
+  description: "Jekyll-based personal website with easy content management"
+  technologies: ["Jekyll", "GitHub Pages"]
+  status: "completed"
+  github_url: "https://github.com/hanjihun2000/hanjihun2000.github.io"
+  featured: true
+# Example project template - uncomment and modify as needed:
+# - title: "Project Name"
+#   description: "Brief description of the project"
+#   technologies: ["Tech1", "Tech2", "Tech3"]
+#   status: "in-progress" # or "completed" or "planned"
+#   github_url: "https://github.com/username/repo"
+#   featured: false

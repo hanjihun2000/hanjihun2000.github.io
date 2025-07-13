@@ -23,201 +23,112 @@ include breadcrumbs.html %} {% endunless %} {% endif %}
       </h1>
     </div>
 
+    <!-- Work Experience Section -->
     <section id="work" class="taxonomy_section">
       <h2 class="archive__subtitle">my work experience</h2>
 
+      {% for work in site.data.work_experience %}
       <div>
-        <h5>Deloitte</h5>
+        <h5>{{ work.company }}</h5>
         <p style="font-size: 14px; color: rgb(95, 95, 95)">
-          Summer Intern | June 2025 - Aug 2025 | Full-time<br />
+          {{ work.position }} | {{ work.duration }} | {{ work.type }}<br />
         </p>
+        {% if work.department %}
         <p class="archive__item-excerpt" itemprop="description">
-          Technology and Transformation Function, Deloitte Digital
+          {{ work.department }}
         </p>
-        <div style="margin-bottom: 30px"></div>
-      </div>
-
-      <div>
-        <h5>AIA</h5>
-        <p style="font-size: 14px; color: rgb(95, 95, 95)">
-          IT Audit Intern | Apr 2025 - May 2025 | Part-time<br />
-        </p>
+        {% endif %} {% if work.description %}
         <p class="archive__item-excerpt" itemprop="description">
-          Group Internal Audit
+          {{ work.description }}
         </p>
+        {% endif %} {% if work.highlights.size > 0 %}
         <ul>
+          {% for highlight in work.highlights %}
           <li class="archive__item-excerpt" itemprop="description">
-            Conducted IT audit Quality Assurance reviews to evaluate controls
-            and identify IT risks.
+            {{ highlight }}
           </li>
+          {% endfor %}
         </ul>
-        <img src="../assets/images/aia.jpg" alt="AIA" />
+        {% endif %} {% if work.image %}
+        <img src="../assets/images/{{ work.image }}" alt="{{ work.company }}" />
+        {% endif %}
         <div style="margin-bottom: 30px"></div>
       </div>
-
-      <div>
-        <h5>Manulife Investment Management</h5>
-        <p style="font-size: 14px; color: rgb(95, 95, 95)">
-          Technology Placement Intern | Jun 2024 - Dec 2024 | Full-time<br />
-        </p>
-        <p class="archive__item-excerpt" itemprop="description">
-          Global Wealth and Asset Management (GWAM) Asia Technology Department
-        </p>
-        <ul>
-          <li class="archive__item-excerpt" itemprop="description">
-            Developed internal fund modules, migrating from old legacy PL/SQL to
-            a modern web application backed by React and NestJS.
-          </li>
-        </ul>
-        <img
-          src="../assets/images/manulife-investment-management.jpg"
-          alt="Manulife Investment Management"
-        />
-        <div style="margin-bottom: 30px"></div>
-      </div>
+      {% endfor %}
 
       <a href="#page-title" class="back-to-top">Back to Top ↑</a>
     </section>
 
     <div style="margin-bottom: 30px"></div>
 
+    <!-- Achievements Section -->
     <section id="achievement" class="taxonomy_section">
       <h2 class="archive__subtitle">my achievements</h2>
 
+      {% for achievement in site.data.achievements %}
       <div>
-        <h5>2024 Manulife Hacksgiving Hackathon</h5>
+        <h5>{{ achievement.title }}</h5>
         <p style="font-size: 14px; color: rgb(95, 95, 95)">
-          Participant | Nov 2024 | Hong Kong<br />
+          {{ achievement.type }} | {{ achievement.date }} | {{
+          achievement.location }}<br />
         </p>
+        {% if achievement.description %}
         <p class="archive__item-excerpt" itemprop="description">
-          Received 2024 Manulife Hacksgiving Hackathon Certificate of
-          Participation.
+          {{ achievement.description }}
         </p>
+        {% endif %} {% if achievement.highlights.size > 0 %}
         <ul>
+          {% for highlight in achievement.highlights %}
           <li class="archive__item-excerpt" itemprop="description">
-            Team GenAI API Analyzer
+            {{ highlight }}
           </li>
+          {% endfor %}
         </ul>
+        {% endif %} {% if achievement.image %}
         <img
-          src="../assets/images/manulife-hackathon.jpg"
-          alt="Manulife Hackathon"
+          src="../assets/images/{{ achievement.image }}"
+          alt="{{ achievement.title }}"
         />
+        {% endif %}
         <div style="margin-bottom: 30px"></div>
       </div>
+      {% endfor %}
 
-      <div>
-        <h5>2024 PwC Hack A Day Capture the Flag (CTF) Competition</h5>
-        <p style="font-size: 14px; color: rgb(95, 95, 95)">
-          Participant | Nov 2024 | Hong Kong<br />
-        </p>
-        <p class="archive__item-excerpt" itemprop="description">
-          Participated 2024 PwC Hack A Day Capture the Flag Competition.
-        </p>
-        <ul>
-          <li class="archive__item-excerpt" itemprop="description">
-            7th Place in HK/Macau Region
-          </li>
-          <li class="archive__item-excerpt" itemprop="description">
-            36th Place out of 100+ global teams across APAC region
-          </li>
-        </ul>
-        <img src="../assets/images/pwc-ctf.jpg" alt="PwC CTF Competition" />
-        <div style="margin-bottom: 30px"></div>
-      </div>
+      <a href="#page-title" class="back-to-top">Back to Top ↑</a>
+    </section>
 
-      <div>
-        <h5>2024 Morgan Stanley Asia Code To Give Hackathon</h5>
-        <p style="font-size: 14px; color: rgb(95, 95, 95)">
-          Participant | Aug 2024 | Hong Kong<br />
-        </p>
-        <p class="archive__item-excerpt" itemprop="description">
-          Received 2024 Morgan Stanley Code To Give Hackathon Certificate of
-          Participation.
-        </p>
-        <ul>
-          <li class="archive__item-excerpt" itemprop="description">
-            Led a team of 8 members in a hybrid hackathon to develop an
-            end-to-end web application for a non-profit organization to
-            efficiently manage their events, participants and volunteers at a
-            glance.
-          </li>
-          <li class="archive__item-excerpt" itemprop="description">
-            Engineered the development environment setup using Docker
-            containers, ensuring seamless Frontend-Backend-DB connectivity and
-            boosting development efficiency by configuring consistent setup for
-            everyone.
-          </li>
-          <li class="archive__item-excerpt" itemprop="description">
-            Harnessed full-stack capabilities using React, Django, PostgreSQL,
-            Docker and Git to craft a scalable and production-ready application,
-            and improved teamwork skills, collaboration and communication
-            expertise.
-          </li>
-        </ul>
-        <img
-          src="../assets/images/morgan-stanley-hackathon.jpg"
-          alt="Morgan Stanley Hackathon"
-        />
-        <div style="margin-bottom: 30px"></div>
-      </div>
+    <div style="margin-bottom: 30px"></div>
 
-      <div>
-        <h5>2023 Deloitte CyberAce Competition</h5>
-        <p style="font-size: 14px; color: rgb(95, 95, 95)">
-          Participant | Oct 2023 - Nov 2023 | Hong Kong<br />
-        </p>
-        <p class="archive__item-excerpt" itemprop="description">
-          Received 2023 Deloitte CyberAce Competition Certificate of
-          Achievement.
-        </p>
-        <ul>
-          <li class="archive__item-excerpt" itemprop="description">
-            Pioneered the first-ever bid simulation with 3 team members through
-            writing Request for Proposal and gained immersive experience of the
-            process of cybersecurity consulting business bidding.
-          </li>
-          <li class="archive__item-excerpt" itemprop="description">
-            Tackled real-life cybersecurity challenges given by AWS AI and
-            presented our all-in-one solution “DevOptima” that can be applied to
-            assist both enterprise’s innovation and cybersecurity improvement in
-            the era of Generative AI.
-          </li>
-        </ul>
-        <img
-          src="../assets/images/deloitte-cyberace.jpg"
-          alt="Deloitte CyberAce"
-        />
-        <div style="margin-bottom: 30px"></div>
-      </div>
+    <!-- Recent Blog Posts Section -->
+    <section id="recent-posts" class="taxonomy_section">
+      <h2 class="archive__subtitle">recent blog posts</h2>
 
+      {% if site.posts.size > 0 %} {% for post in site.posts limit:3 %}
       <div>
-        <h5>2023 Hyundai MOBIS ESG Ideathon</h5>
+        <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
         <p style="font-size: 14px; color: rgb(95, 95, 95)">
-          Participant | Jul 2023 - Aug 2023 | Seoul, South Korea<br />
+          {{ post.date | date: "%B %d, %Y" }}<br />
         </p>
+        {% if post.excerpt %}
         <p class="archive__item-excerpt" itemprop="description">
-          Received 2023 Hyundai MOBIS ESG Ideathon Grand Award.
+          {{ post.excerpt | strip_html | truncatewords: 30 }}
         </p>
-        <ul>
-          <li class="archive__item-excerpt" itemprop="description">
-            Designed a creative ESG project with 5 members to reduce 108,520
-            tCO2eq amount of carbon emission by recycling broken car parts to
-            invent “Smart LED Crosswalk”, achieving 33% reduction in Hyundai
-            Mobis’s annual carbon emission.
-          </li>
-          <li class="archive__item-excerpt" itemprop="description">
-            Demonstrated our real-world prototype of “Smart LED Crosswalk” using
-            Arduino and C programming language designed and created by our team
-            to show both hardware (LEDs, sensors, and a power supply) and
-            software worked flawlessly.
-          </li>
-        </ul>
-        <img
-          src="../assets/images/hyundai-mobis-esg-ideathon.jpg"
-          alt="Hyundai MOBIS ESG Ideathon"
-        />
-        <div style="margin-bottom: 30px"></div>
+        {% endif %}
+        <p>
+          <a href="{{ post.url }}" class="btn btn--primary btn--small"
+            >Read More</a
+          >
+        </p>
+        <div style="margin-bottom: 20px"></div>
       </div>
+      {% endfor %}
+
+      <div style="text-align: center; margin-top: 20px">
+        <a href="/posts/" class="btn btn--info">View All Blog Posts</a>
+      </div>
+      {% else %}
+      <p>No blog posts yet. Check back soon!</p>
+      {% endif %}
 
       <a href="#page-title" class="back-to-top">Back to Top ↑</a>
     </section>
