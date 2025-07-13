@@ -1,0 +1,31 @@
+# Work Experience Data
+# To add new work experience, just add a new entry following the same format
+# No HTML knowledge required!
+
+- company: "Deloitte"
+  position: "Summer Intern"
+  duration: "June 2025 - Aug 2025"
+  type: "Full-time"
+  department: "Technology and Transformation Function, Deloitte Digital"
+  description: ""
+  highlights: []
+
+- company: "AIA"
+  position: "IT Audit Intern"
+  duration: "Apr 2025 - May 2025"
+  type: "Part-time"
+  department: "Group Internal Audit"
+  description: ""
+  highlights:
+    - "Conducted IT audit Quality Assurance reviews to evaluate controls and identify IT risks."
+  image: "aia.jpg"
+
+- company: "Manulife Investment Management"
+  position: "Technology Placement Intern"
+  duration: "Jun 2024 - Dec 2024"
+  type: "Full-time"
+  department: "Global Wealth and Asset Management (GWAM) Asia Technology Department"
+  description: ""
+  highlights:
+    - "Developed internal fund modules, migrating from old legacy PL/SQL to a modern web application backed by React and NestJS."
+  image: "manulife-investment-management.jpg"
