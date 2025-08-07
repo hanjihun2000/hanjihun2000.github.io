@@ -1,7 +1,7 @@
 {% if page.id %}
-<div class="post-nav-wrapper">
-  <nav class="post-nav">
-    <a href="/posts/" class="post-nav-btn">
+<div class="post_nav-wrapper">
+  <nav class="post_nav">
+    <a href="/posts/" class="post_nav-btn">
       <i class="fas fa-arrow-left"></i>
       <span>Back to Blog Posts</span>
     </a>
@@ -9,16 +9,16 @@
 </div>
 
 <!-- <style>
-.post-nav-wrapper {
+.post_nav-wrapper {
   margin-bottom: 2.5em;
   padding: 0;
 }
 
-.post-nav {
+.post_nav {
   text-align: left;
 }
 
-.post-nav-btn {
+.post_nav-btn {
   display: inline-flex;
   align-items: center;
   gap: 0.75em;
@@ -36,7 +36,7 @@
   overflow: hidden;
 }
 
-.post-nav-btn::before {
+.post_nav-btn::before {
   content: '';
   position: absolute;
   top: 0;
@@ -47,43 +47,43 @@
   transition: left 0.5s;
 }
 
-.post-nav-btn:hover::before {
+.post_nav-btn:hover::before {
   left: 100%;
 }
 
-.post-nav-btn:hover {
+.post_nav-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
   color: white;
   text-decoration: none;
 }
 
-.post-nav-btn:active {
+.post_nav-btn:active {
   transform: translateY(0);
 }
 
-.post-nav-btn i {
+.post_nav-btn i {
   font-size: 1em;
   transition: transform 0.3s ease;
 }
 
-.post-nav-btn:hover i {
+.post_nav-btn:hover i {
   transform: translateX(-3px);
 }
 
-.post-nav-btn span {
+.post_nav-btn span {
   font-weight: 500;
   letter-spacing: 0.3px;
 }
 
 /* Dark mode compatibility */
 @media (prefers-color-scheme: dark) {
-  .post-nav-btn {
+  .post_nav-btn {
     background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
     box-shadow: 0 4px 15px rgba(79, 172, 254, 0.2);
   }
   
-  .post-nav-btn:hover {
+  .post_nav-btn:hover {
     box-shadow: 0 8px 25px rgba(79, 172, 254, 0.3);
   }
 }

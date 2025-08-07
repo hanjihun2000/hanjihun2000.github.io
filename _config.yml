@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "Jihun (Jay) HAN"
 email: "jihun8865@gmail.com"
-description: "Final Year Computer Science at CUHK - Software Development & Distributed Systems Enthusiast"
+description: "Final Year Computer Science at CUHK"
 github_username: hanjihun2000
 minimal_mistakes_skin: default
 search: false
@@ -58,7 +58,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
 
 author:

@@ -17,8 +17,8 @@
   location: "Hong Kong"
   description: "Participated 2024 PwC Hack A Day Capture the Flag Competition."
   highlights:
-    - "7th Place in HK/Macau Region"
-    - "36th Place out of 100+ global teams across APAC region"
+    - "Solved 3 web challenges, including PHP Object Injection, SQL Injection, and 403 Forbidden Bypass, demonstrating cybersecurity expertise."
+    - "Secured 7th place in Hong Kong/Macau and 36th place across APAC region, achieving the top spot in the competition."
   image: "pwc-ctf.jpg"
 
 - title: "2024 Morgan Stanley Asia Code To Give Hackathon"
@@ -27,9 +27,9 @@
   location: "Hong Kong"
   description: "Received 2024 Morgan Stanley Code To Give Hackathon Certificate of Participation."
   highlights:
-    - "Led a team of 8 members in a hybrid hackathon to develop an end-to-end web application for a non-profit organization to efficiently manage their events, participants and volunteers at a glance."
-    - "Engineered the development environment setup using Docker containers, ensuring seamless Frontend-Backend-DB connectivity and boosting development efficiency by configuring consistent setup for everyone."
-    - "Harnessed full-stack capabilities using React, Django, PostgreSQL, Docker and Git to craft a scalable and production-ready application, and improved teamwork skills, collaboration and communication expertise."
+    - "Led a team of 8 in a hybrid hackathon, developing an end-to-end web application for a non-profit to streamline event, participant, and volunteer management."
+    - "Configured Docker containers for a consistent development environment, enhancing full-stack service connectivity and boosting team efficiency."
+    - "Built a scalable, production-ready application using React, Django, and PostgreSQL, improving skills in building robust solutions and fostering effective team collaboration and communication."
   image: "morgan-stanley-hackathon.jpg"
 
 - title: "2023 Deloitte CyberAce Competition"
